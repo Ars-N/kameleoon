@@ -1,0 +1,45 @@
+.form{
+  margin-top: 44px;
+}
+
+.input{
+  height: 45px;
+  width: 100%;
+  background: #FFFFFF;
+  border: 1px solid #EBEBEB;
+  box-sizing: border-box;
+  border-radius: 15px;
+  padding: 15px 82px 15px 37px;
+
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+
+  color: #474747;
+
+  &::placeholder {
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #D1D1D1;
+  }
+}
+.input-label{
+  position: relative;
+}
+.test-counter{
+  position: absolute;
+  top: 0;
+  right: 24px;
+
+  font-size: 14px;
+  line-height: 16px;
+  color: #D1D1D1;
+}
+.img-search{
+  position: absolute;
+  left: 13px;
+  top: 0;
+}

@@ -1,0 +1,80 @@
+.table-item_wrapper{
+  position: relative;
+  display: grid;
+  grid-template-columns: 6.2fr 1.8fr 1.6fr 2fr 2fr;
+  grid-column-gap: 10px;
+  align-items: center;
+
+  cursor: pointer;
+
+  & > .btn{
+    justify-self: end;
+  }
+
+  height: 70px;
+  padding-left: 15px;
+  padding-right: 12px;
+  margin-top: 5px;
+  background: #FFFFFF;
+  border-radius: 3px;
+
+  &:hover{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  }
+}
+
+.table-item_color-element{
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  height: 100%;
+  width: 4px;
+  border-radius: 3px 0 0 3px;
+}
+
+// fonts table items
+.table-item__name{
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 15px;
+  color: #474747;
+}
+.table-item__type{
+  font-size: 12px;
+}
+.table-item__status{
+  text-transform: capitalize;
+  line-height: 14px;
+  font-weight: 500;
+}
+.table-item__site, .table-item__type{
+  line-height: 14px;
+  color: #5C5C5C;
+}
+
+// color left line
+.table-item__red{
+  background-color: #E14165;
+}
+.table-item__purple{
+  background-color: #8686FF;
+}
+.table-item__lightPurple{
+  background-color: #C2C2FF;
+}
+
+
+// color STATUS
+.status-online{
+  color: #1BDA9D;
+}
+.status-paused{
+  color: #FF8346;
+}
+.status-stopped{
+  color: #FE4848;
+}
+.status-draft{
+  color: #5C5C5C;
+}
